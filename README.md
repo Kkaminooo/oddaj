@@ -1,0 +1,2 @@
+# oddaj
+oddaj rzeczy
