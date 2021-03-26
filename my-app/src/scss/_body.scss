@@ -1,0 +1,9 @@
+@import "./settings/fonts";
+@import "./settings/colors";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-base;
+}

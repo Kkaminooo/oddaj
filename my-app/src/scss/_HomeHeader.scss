@@ -1,0 +1,108 @@
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
+
+.homeHeader {
+  display: flex;
+  //font-family: $font-base;
+
+  .headerLeft {
+    //background-image: url("src/assets/Home-Hero-Image.jpg");
+    width: 44%;
+    height: auto;
+  }
+
+  .headerRight {
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+    .headerRight-log {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 1.85em;
+
+      a {
+        color: #737373;
+        background: none;
+        border: none;
+        font-family: $font-alt;
+        margin: 1em;
+        padding: 0.6em;
+      }
+
+      .register {
+        border: 0.75px solid #FAD648;
+        opacity: 1;
+      }
+    }
+
+    .headerRight-menu {
+      display: flex;
+      justify-content: space-between;
+      color: #3C3C3C;
+      margin-bottom: 15%;
+
+
+      a {
+        text-decoration: none;
+        text-align: center;
+        color: $main-color;
+        font-size: 1.28em;
+        font-family: $font-alt;
+        font-weight: normal;        background: none;
+        border: none;
+        padding: 0.65em;
+
+      }
+
+      .start {
+        border: 0.75px solid #3c3c3c;
+      }
+    }
+
+    h2 {
+      font-family: $font-alt;
+      font-weight: normal;
+      display: flex;
+      justify-content: center;
+      color: $main-color;
+      font-size: 2.7em;
+      text-align: center;
+    }
+
+    .headerRight-img {
+      align-self: center;
+      margin-top: 2em;
+      margin-bottom: 3em;
+    }
+
+    .headerRight-buttons {
+      display: flex;
+      justify-content: space-around;
+      gap: 3.15em;
+      div {
+        width: 22.15em;
+        height: 8.57em;
+        border: 0.75px solid #3c3c3c;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+
+        a {
+          display: flex;
+          justify-content: center;
+          align-self: center;
+          text-decoration: none;
+          font-family: $font-alt;
+          font-size: 2.1em;
+          font-weight: 300;
+          color: $main-color;
+        }
+      }
+    }
+  }
+}
